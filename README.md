@@ -1,4 +1,4 @@
-# Bigram Generator - using .arpa file as input, max order 2 -
+# Bigram Generator - ARPA file as input, max order 2 
 
 1- Build and (optionally install) https://github.com/kpu/kenlm
 
