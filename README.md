@@ -2,6 +2,8 @@
 
 1- Build and (optionally install) https://github.com/kpu/kenlm
 
-2- Build bigram_streamer using "make"
+2- lmplz -o 2 --prune 0 1 < dataset.txt > model.arpa
+
+3- Build bigram_streamer cloning the repo and using "make"
 
 usage: ./build/bigram_streamer_release --model file.arpa [--min N] [--max N] [--temp T] [--threads K] [--bench S] [--mode regular|tokenizer]
